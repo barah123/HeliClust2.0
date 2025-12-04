@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+author: "Philip Appiah"
+date: "2025-12-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+install.packages("remotes") # if needed 
+remotes::install_github("barah123/HeliClust20") 
+library(HeliClust20)
+
+
+summary(cars)
+```
+

@@ -1,0 +1,27 @@
+"0","install.packages(""remotes"") # if needed "
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/remotes_2.5.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 436950 bytes (426 KB)
+"
+"2","downloaded 426 KB
+
+"
+"1","package ‘remotes’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\User\AppData\Local\Temp\Rtmpgxjdp7\downloaded_packages"
+"1",""
+"1","
+"
+"0","remotes::install_github(""barah123/HeliClust20"") "
+"2","Error: Failed to install 'HeliClust20' from GitHub:
+  HTTP error 404.
+  Not Found
+
+  Did you spell the repo owner (`barah123`) and repo name (`HeliClust20`) correctly?
+  - If spelling is correct, check that you have the required permissions to access the repo.
+"
