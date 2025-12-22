@@ -1,6 +1,6 @@
 # HeliClust2.0  
 
-![App Logo](./heliClust_ logo.png)
+![App Logo](./heliClust_logo.png)
 
 HeliClust20 is an R package for streamlined hierarchical clustering of **metabolic biomarkers** and **microbiome/sequence (OTU/ASV) data**.  
 It wraps common preprocessing steps (numeric conversion, scaling, distance calculation) and exposes simple, high-level functions for generating clustering-ready distance matrices and `hclust` objects.
