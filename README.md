@@ -112,6 +112,8 @@ scale_data = TRUE)
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_4" width="45%" />
 </div>
 
+
+---
 4. Export distances (optional)
 write.table(dist_mat, "metabolite_distances.txt",
 sep = "\t", eol = "\n",
