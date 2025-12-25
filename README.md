@@ -77,9 +77,9 @@ dist_method = "bray",
 hclust_method = "average",
 scale_data = FALSE)
 
-plot(hc_seq)
+- plot(hc_seq)
 
-Defaults are tuned for compositional sequence data  Bray–Curtis distances, average linkage) can be customized.
+- Defaults are tuned for compositional sequence data  (Bray–Curtis distances, average linkage) can be customized.
 
 ---
 
