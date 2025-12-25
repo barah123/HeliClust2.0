@@ -63,7 +63,7 @@ dist_method = "euclidean",
 hclust_method = "ward.D2",
 scale_data = TRUE)
 
-plot(hc_met) # base R dendrogram
+- plot(hc_met) # base R dendrogram
 
 - Uses `heliclust_dist()` internally.
 - Returns an `hclust` object created via `stats::hclust()`.
