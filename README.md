@@ -57,8 +57,8 @@ Returns a numeric matrix of pairwise distances.
 
 ### 2. `heliclust_metabolites()`
 
-Hierarchical clustering for metabolic / biomarker data:
-hc_met <- heliclust_metabolites(metabolites,
+- Hierarchical clustering for metabolic / biomarker data:
+- hc_met <- heliclust_metabolites(metabolites,
 dist_method = "euclidean",
 hclust_method = "ward.D2",
 scale_data = TRUE)
@@ -71,8 +71,8 @@ plot(hc_met) # base R dendrogram
 ---
 
 ### 3. `heliclust_sequences()`
-Hierarchical clustering for sequence / OTU data:
-hc_seq <- heliclust_sequences(otu,
+- Hierarchical clustering for sequence / OTU data:
+- hc_seq <- heliclust_sequences(otu,
 dist_method = "bray",
 hclust_method = "average",
 scale_data = FALSE)
@@ -88,7 +88,7 @@ Defaults are tuned for compositional sequence data (e.g. Bray–Curtis distances
 library(HeliClust20)
 
 1. Load data
-metabolites <- read.csv("lcs_v1.csv", row.names = 1, check.names = FALSE)
+- metabolites <- read.csv("lcs_v1.csv", row.names = 1, check.names = FALSE)
 
 2. Distance matrix and clustering
 dist_mat <- heliclust_dist(metabolites,
