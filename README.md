@@ -109,6 +109,7 @@ heatmap(dist_mat) # simple distance heatmap
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_1" width="45%" />
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_2" width="45%" />
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_3" width="45%" />
+  <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_4" width="45%" />
 </div>
 
 4. Export distances (optional)
