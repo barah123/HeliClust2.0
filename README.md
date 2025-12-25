@@ -52,7 +52,6 @@ scale_data = TRUE)
 - `x`: data frame / matrix (rows = samples, columns = variables).
 - `dist_method`: distance metric passed to `vegan::vegdist()` (e.g. `"euclidean"`, `"bray"`).
 - `scale_data`: if `TRUE`, standardizes variables with `scale()`.
-
 Returns a numeric matrix of pairwise distances.
 ---
 
@@ -104,16 +103,16 @@ scale_data = TRUE)
 3. Visualizations
 - plot(hc_met) # dendrogram
 - heatmap(dist_mat) # simple distance heatmap
-  
+
+  ---
 <div align="center">
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_1" width="45%" />
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_2" width="45%" />
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_3" width="45%" />
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_4" width="45%" />
 </div>
-
-
 ---
+
 4. Export distances (optional)
 write.table(dist_mat, "metabolite_distances.txt",
 sep = "\t", eol = "\n",
