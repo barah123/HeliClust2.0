@@ -79,7 +79,7 @@ scale_data = FALSE)
 
 plot(hc_seq)
 
-Defaults are tuned for compositional sequence data (e.g. Bray–Curtis distances, average linkage), but can be customized.
+Defaults are tuned for compositional sequence data  Bray–Curtis distances, average linkage) can be customized.
 
 ---
 
@@ -91,11 +91,11 @@ library(HeliClust20)
 - metabolites <- read.csv("lcs_v1.csv", row.names = 1, check.names = FALSE)
 
 2. Distance matrix and clustering
-dist_mat <- heliclust_dist(metabolites,
+- dist_mat <- heliclust_dist(metabolites,
 dist_method = "euclidean",
 scale_data = TRUE)
 
-hc_met <- heliclust_metabolites(metabolites,
+- hc_met <- heliclust_metabolites(metabolites,
 dist_method = "euclidean",
 hclust_method = "ward.D2",
 scale_data = TRUE)
@@ -114,7 +114,7 @@ scale_data = TRUE)
 
   ---
 4. Export distances (optional)
-write.table(dist_mat, "metabolite_distances.txt",
+- write.table(dist_mat, "metabolite_distances.txt",
 sep = "\t", eol = "\n",
 na = "", col.names = NA,
 quote = FALSE, row.names = TRUE)
