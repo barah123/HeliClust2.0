@@ -102,9 +102,9 @@ hclust_method = "ward.D2",
 scale_data = TRUE)
 
 3. Visualizations
-plot(hc_met) # dendrogram
-
-heatmap(dist_mat) # simple distance heatmap
+- plot(hc_met) # dendrogram
+- heatmap(dist_mat) # simple distance heatmap
+  
 <div align="center">
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_1" width="45%" />
   <img src="https://github.com/barah123/HeliClust2.0/blob/main/heat_2" width="45%" />
