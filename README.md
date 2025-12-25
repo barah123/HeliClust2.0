@@ -19,8 +19,7 @@ HeliClust20 is designed to be:
 
 - install.packages("remotes") # if needed
 - remotes::install_github("barah123/HeliClust2.0", subdir = "HeliClust20")
-
-library(HeliClust20)
+- library(HeliClust20)
 ---
 
 ## Input data format
