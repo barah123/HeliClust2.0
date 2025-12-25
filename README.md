@@ -39,8 +39,8 @@ metabolites <- read.csv("lcs_v1.csv", row.names = 1, check.names = FALSE)
 
 If your table has taxa as rows and samples as columns, transpose before using:
 
-otu <- read.csv("otu_table_taxa_rows.csv", row.names = 1, check.names = FALSE)
-otu <- t(otu) # rows = samples, columns = OTUs
+- otu <- read.csv("otu_table_taxa_rows.csv", row.names = 1, check.names = FALSE)
+- otu <- t(otu) # rows = samples, columns = OTUs
 
 ---
 ## Core functions
