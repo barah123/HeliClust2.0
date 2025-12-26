@@ -28,8 +28,7 @@ HeliClust20 is designed to be:
 - **Rows**: samples (e.g. subjects).
 - **Columns**: numeric biomarkers (e.g. HOMA.IR, G30, G60, I30, …).
 - Values should be numeric or coercible to numeric.
-Example:
-metabolites <- read.csv("lcs_v1.csv", row.names = 1, check.names = FALSE)
+- Example:metabolites <- read.csv("lcs_v1.csv", row.names = 1, check.names = FALSE)
 
 ### OTU/ASV table for sequences
 
